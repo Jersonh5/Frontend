@@ -1,0 +1,54 @@
+.car-detail-form {
+  padding: 20px;
+  border: 1px solid #ccc;
+  margin: 20px auto; 
+  max-width: 400px;
+  text-align: center; 
+}
+
+.car-detail-form img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.car-detail-form h2, .car-detail-form h3, .car-detail-form p, .car-detail-form span {
+  text-align: center;
+}
+
+.vertical-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.vertical-form label {
+  margin-bottom: 10px;
+  text-align: left; /* Alinea el texto a la izquierda */
+  margin-left: 10px; /* Añade margen izquierdo */
+  margin-right: 10px; /* Añade margen derecho */
+}
+
+.vertical-form input, .vertical-form select {
+  padding: 8px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: calc(100% - 20px); /* Ancho ajustado por los márgenes */
+}
+
+.vertical-form button[type="submit"],
+.vertical-form button {
+  display: block;
+  margin: 20px auto 0;
+  padding: 10px 20px;
+  font-size: 16px;
+  width: calc(100% - 20px); /* Ancho ajustado por los márgenes */
+}
+
+.car-detail-form button {
+  display: block;
+  margin: 20px auto 0;
+  padding: 10px 20px;
+  font-size: 16px;
+  width: calc(100% - 20px); /* Ancho ajustado por los márgenes */
+}

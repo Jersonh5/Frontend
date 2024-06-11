@@ -1,0 +1,35 @@
+.location-dropdown,
+.date-picker,
+button {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.car-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; 
+  list-style: none;
+  padding: 0;
+  margin: 20px 0; 
+}
+
+.car-item {  
+  margin: 10px; 
+  text-align: center;
+}
+
+.car-item img {
+  width: 200px;
+  height: 150px;
+  object-fit: cover;
+}
+
+.car-item h3 {
+  margin: 5px 0;
+}
+
+.car-item p,
+.car-item span {
+  margin: 3px 0;
+}
